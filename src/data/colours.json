@@ -1,0 +1,16 @@
+[
+  {
+    "scheme": "primary",
+    "shades": [
+      { "token": "BP10", "hex": "#111" },
+      { "token": "BP20", "hex": "#222" }
+    ]
+  },
+  {
+    "scheme": "secondary",
+    "shades": [
+      { "token": "BS10", "hex": "#333" },
+      { "token": "BS20", "hex": "#444" }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+---
+  const { title } = Astro.props
+---
+
+<div class="thumbnail-container">
+<div class="swatch">
+</div>
+<h3>{title}</h3>
+<h4>Design token</h4>
+</div>
+
+<style>
+.thumbnail-container {
+  display:grid;
+  gap: 0.5rem;
+}
+
+.swatch {
+  border: 1px solid #ccc;
+  width:120px;
+  height:120px;
+}
+</style>
