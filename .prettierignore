@@ -1,0 +1,9 @@
+# Ignore artifacts:
+public
+node_modules
+README.md
+.stackblitz
+package.json
+package-lock.json
+.gitignore
+tsconfig.json
