@@ -1,0 +1,14 @@
+@use "../abstracts/" as *;
+
+body {
+  background-color: blue;
+  font-family: $body-font;
+
+  @include mq(sm) {
+    background-color: #f2f2f2;
+  }
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
